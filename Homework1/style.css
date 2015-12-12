@@ -1,0 +1,41 @@
+
+	body {
+		background-color: #444444;
+		color: white;
+	}
+	a {
+      color: #57C2B3;
+    }
+    h1 {
+    	text-align: center;
+    	font-size: 50px;
+    	font-style: italic;
+    }
+    h2 {
+    	font-size: 30px;
+    }
+    .divider {
+    	border: 1px #CCCCCC solid;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    }
+    .txt-center {
+    	text-align: center;
+    }
+    .container {
+    	border: #CCCCCC 4px solid;
+    	width: 600px;
+    	padding: 40px;
+    	margin: 20px auto;
+    }
+    img {
+    	border: 1px solid #CCCCCC;
+    	padding: 5px;
+    	float: right;
+    	margin: 5px;
+    }
+    .muted {
+        color: #CCCCCC;
+    }
+
+
