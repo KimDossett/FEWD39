@@ -1,0 +1,104 @@
+/*style for navigation bar at top of page*/
+
+
+#wrapper {
+	min-height: 100%;
+	margin: 40px 20px 40px 40px;
+}
+
+.nav {
+	margin: 5px auto;
+	width: 100%;
+}
+
+.col-6 {
+	background: black;
+	width: 16%;
+	height: 50px;
+	float: left;
+	border: white solid 1px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.container {
+	width: 50%;
+	height: auto;
+	float; left;
+	box-sizing: border-box;
+}
+
+.date h2 {
+	
+}
+
+.street {
+	/*text-align: left;*/
+	font-family: avenir;
+	font-weight: lighter;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+ .divider {
+    	border: .5px #CCCCCC solid;
+    	margin-top: 50px;
+    	margin-bottom: 50px;
+    	width: 50%;
+    	clear: both;
+}
+
+a {
+	font-family: avenir;
+}
+
+.about {
+	text-align: left;
+	margin-right: 5%;
+	font-family: avenir;
+	font-weight: lighter;
+	box-sizing: border-box;
+}
+
+.box {
+	height: 300px;
+	width: 300px;
+	color: #5a5959;
+	font-size: 60px;
+	font-family: typewriter;
+	background: grey;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 2em;
+}
+
+.firstcharacter {
+	float: left;
+	color: grey;
+	font-size: 70px;
+	line-height: 60px;
+	padding-right: 10px;
+}
+
+.continue a {
+	color: red;
+	margin: 20px 0px;
+	float: right;
+	text-decoration: none;
+}
+
+.sidebar {
+	width: 40%;
+	height: auto;
+	float: right;
+	box-sizing: border box;
+	/*clear: both;*/
+}
+
+.site-footer {
+	/*position: absolute;*/
+	/*margin-top: -400px;*/
+	height: 150px;
+	clear: both;
+}
