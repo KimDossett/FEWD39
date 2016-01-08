@@ -1,0 +1,52 @@
+.box1, .box2, .box3 {
+	border: blue 2px solid;
+	width: 200px;
+	height: 100px;
+}
+
+.box2 {
+	margin-left: 50px;
+}
+
+.box3 {
+	margin-left: 100px;
+}
+
+
+/*mirror excercise*/
+
+.mirror {
+	border: blue 2px solid;
+}
+
+.box7 {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.box6 {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 7%;
+	top: 7%;
+	
+}
+
+.box5 {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 15%;
+	top: 15%;
+}
+
+.box4 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 30%;
+	top: 30%;
+}

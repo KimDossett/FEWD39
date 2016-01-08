@@ -1,0 +1,47 @@
+/*h2, h3 {
+	color: grey;
+}*/
+article {
+	margin-top: 10px;
+}
+
+.col-2 {
+	width: 30%;
+	float; left;
+	box-sizing: border-box;
+	border: 1px red solid;
+}
+
+/*#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}*/
+
+
+article h2 {
+	color: grey;
+}
+
+article img {
+	width: 100%;
+}
+
+.divider {
+	height: 1px;
+	background-color: #c0c0c0;
+	margin-top: 20px;
+	width: 50%;
+	clear: both;
+}
+
+article a {
+	color: red;
+	float: right;
+}
+
+p, h3 {
+	font-family: 'Pacifico', cursive;
+}

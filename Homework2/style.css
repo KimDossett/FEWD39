@@ -27,6 +27,7 @@
 	height: auto;
 	float; left;
 	box-sizing: border-box;
+	margin-top: 20px;
 }
 
 .date h2 {
@@ -93,12 +94,17 @@ a {
 	height: auto;
 	float: right;
 	box-sizing: border box;
-	/*clear: both;*/
+	margin-top: 40px;
 }
 
 .site-footer {
-	/*position: absolute;*/
-	/*margin-top: -400px;*/
 	height: 150px;
 	clear: both;
+	text-decoration: none;
+
+}
+
+a {
+	color: red;
+	text-decoration: none;
 }
