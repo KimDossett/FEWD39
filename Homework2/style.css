@@ -45,9 +45,7 @@
  .divider {
     	border: .5px #CCCCCC solid;
     	margin-top: 50px;
-    	margin-bottom: 50px;
     	width: 50%;
-    	clear: both;
 }
 
 a {
@@ -84,7 +82,7 @@ a {
 
 .continue a {
 	color: red;
-	margin: 20px 0px;
+	margin: 5px 0px;
 	float: right;
 	text-decoration: none;
 }
