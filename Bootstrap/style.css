@@ -1,0 +1,6 @@
+.col-md-1, .col-md-8, .col-md-4, .col-md-6 {
+	border: solid thin #cccccc;
+	padding: 10px;
+	margin: 5px 0px;
+	background-color: #e6e6e6;
+}

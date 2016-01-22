@@ -1,0 +1,31 @@
+.jumbotron {
+	text-align: center;
+	background: url(img/sf.jpg);
+}
+
+.container {
+	margin: 20px auto;
+	width: 50%;	
+}
+
+.row, .head {
+	margin: 10px 10px;
+}
+
+.head {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.line {
+	border-bottom: solid #e6e6e6 thin;
+	height: .5px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	color: grey;
+	margin: 0;
+}
