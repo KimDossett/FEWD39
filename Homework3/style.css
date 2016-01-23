@@ -1,15 +1,3 @@
-.navbar-fixed-top {
-	background: black;
-}
-
-.container {
-	width: 65%;
-	margin: 20px 0px;
-}
-
-.navbar-nav {
-	background: black;
-}
 
 .spacer
 {
@@ -17,26 +5,9 @@
     height: 100px;
 }
 
-.row1 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.row1, .row {
-	margin: 15px 10px;
-}
-
-.btn-default {
-	background: white;
-}
-
-.list-group {
-	width: 20%;
-	float: left;
-}
-
 .line {
 	border-bottom: solid #e6e6e6 thin;
 	height: .5px;
 	margin: 20px;
+	clear: both;
 }
