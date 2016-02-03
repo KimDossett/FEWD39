@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab for Javascript</title>
+</head>
+<style>
+	.green {
+		color: green;
+	}
+	#fontsize100 {
+		font-size: 100px;
+	}
+</style>
+
+
+
+<body>
+	<h1> Hi there!</h1>
+	<ul>
+		<li class = "green">list item 1</li>
+	</ul>
+
+</body>
+
+
+
+
+
+<script>
+/*// created a new element*/
+	var listItem = document.createElement("li");
+	listItem.setAttribute("class", "green");
+/*another way to make it green*/
+	/*listItem.className = "green";*/
+// change the font font size
+	listItem.setAttribute("id", "fontsize100");
+
+/*// create a second element*/
+	var image = document.createElement("img");
+/*// put content in the new element*/
+	listItem.textContent = "my first list item";
+/*// assign content to the second element*/
+	image.setAttribute("src", "http://animalfair.com/wp-content/uploads/2013/09/macexplorer.com-puppy-dog-26.jpg");
+/*// select the parent to attach this to*/
+	var ul = document.querySelector("ul");
+
+/*// put the element underneath the parent element we selected*/
+	ul.appendChild(listItem);
+	ul.appendChild(image);
+</script>
+
+</html>
